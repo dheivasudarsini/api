@@ -18,7 +18,7 @@ public class PathParameterTest {
 				.get("http://localhost:8084/projects/{ProjectId}")
 			.then()
 				.assertThat().statusCode(200)
-				.assertThat().time(Matchers.lessThan(3000l),TimeUnit.MILLISECONDS)
+				.assertThat().time(Matchers.lessThan(5000l),TimeUnit.MILLISECONDS)
 				.log().all();
 	}
 

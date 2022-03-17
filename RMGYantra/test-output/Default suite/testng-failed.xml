@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.RMGYantra.Authentication.DigestiveAuthTest">
+      <class name="requestChaining.PostandDeleteProjectTest">
         <methods>
-          <include name="DigestiveAuth"/>
+          <include name="PostandDelete"/>
         </methods>
-      </class> <!-- com.RMGYantra.Authentication.DigestiveAuthTest -->
+      </class> <!-- requestChaining.PostandDeleteProjectTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
